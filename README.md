@@ -1,6 +1,7 @@
 > 注意：此组件在性能较差的手机上，可能表现不是很理想，低配置手机请慎重使用。
 
-[github 地址: https://github.com/mehaotian/t-color-picker](https://github.com/mehaotian/t-color-picker)
+[github 地址: https://github.com/mehaotian/t-color-picker](https://github.com/mehaotian/t-color-picker)   
+
 [插件市场地址：http://ext.dcloud.net.cn/plugin?id=412](http://ext.dcloud.net.cn/plugin?id=412)
 
 我们在开发 `web` 应用的时候，想选择颜色，直接使用 `<input type="color">` 即可, 然而在 `uni-app` 中并没有选择器，需要我们去实现相关功能。
