@@ -3,8 +3,8 @@
 		<view class="t-mask" :class="{active:active}" @click.stop="close"></view>
 		<view class="t-box" :class="{active:active}">
 			<view class="t-header">
-				<view class="t-header-button" @click="close">取消</view>
-				<view class="t-header-button" @click="confirm">确认</view>
+				<view class="t-header-button" @click.stop="close">取消</view>
+				<view class="t-header-button" @click.stop="confirm">确认</view>
 			</view>
 			<view class="t-color__box" :style="{ background: 'rgb(' + bgcolor.r + ',' + bgcolor.g + ',' + bgcolor.b + ')'}">
 				<view class="t-background boxs" @touchstart="touchstart($event, 0)" @touchmove="touchmove($event, 0)" @touchend="touchend($event, 0)">
