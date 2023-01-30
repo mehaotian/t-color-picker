@@ -241,7 +241,7 @@
 			 */
 			init() {
 				// hsb 颜色
-				this.hsb = this.rgbToHex(this.rgba);
+				this.hsb = this.rgbToHsb(this.rgba);
 				// this.setColor();
 				this.setValue(this.rgba);
 			},
@@ -305,6 +305,8 @@
 			 * 设置位置
 			 */
 			setPosition(x, y, index) {
+				if (!this.position) return;
+
 				this.index = index;
 				const {
 					top,
